@@ -29,12 +29,12 @@ class _Test1PageState extends State<Test1Page> {
         children: [
           Text(
             "${data[index]["nombre"]}",
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 20.0,
               fontWeight: FontWeight.bold,
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10.0,
           ),
           Image.asset(
